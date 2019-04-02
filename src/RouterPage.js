@@ -9,10 +9,10 @@ class RouterPage extends React.Component {
     return (
       <Router>
         <div className="Home">       
-          <hr />
+        <a href="./Login">Welcome!</a>
           <Route path="/Register" component={Register} />
           <Route path="/Login" component={Login} />
-          <Route path="/ForgotPassword" component={ForgotPassword} />        
+          <Route path="/ForgotPassword" component={ForgotPassword} />  
         </div>
       </Router> 
     );
