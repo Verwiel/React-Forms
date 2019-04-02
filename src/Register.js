@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-const loginReturn = <a href="#">Return to Login</a>
-
-class Register extends Component {
+class Register extends React.Component {
     render() {
       return (
         <div className="Register">
@@ -15,14 +13,11 @@ class Register extends Component {
             <input type="text" placeholder="Choose a Username"/>
             <input type="password" placeholder="Choose a Password"/>
             <input type="password" placeholder="Confirm Password"/>
-            
-            <input type="checkbox" value="" />
             <label>
               Agree to terms and conditions
+              <input type="checkbox" value="" />
             </label>
-
-            <button type="submit">Register</button>
-            {loginReturn}
+            <button type="submit">Create Account</button>
           </form>
         </div>
       );
