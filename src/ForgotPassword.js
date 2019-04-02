@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import RouterPage from './RouterPage'
 
 class ForgotPassword extends React.Component {
   render() {
     return (
-      <div className="ForgotPassword">
-        <h1>Forgot Password</h1>
+      <div class="vertical-center text-center">
         <form>
+          <h1>Forgot Password</h1>
           <p>email blah blah</p>
-          <input type="text" placeholder="" required/>
+          <input type="email" placeholder="Enter Email Address" required/>
           <button type="submit">Submit</button>
           <p>Remember?
           <a href="./Login"> Login!</a>

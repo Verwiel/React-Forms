@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class Login extends React.Component {
   render() {
     return (
-      <div className="Login">
-        <h1>Login</h1>
+      <div class="vertical-center text-center">
         <form>  
+          <h1>Login</h1>
           <a href="./Register">Create an Account</a>
           <input type="text" placeholder="Username" required/>
           <a href="./ForgotPassword">Forgot Password?</a>
