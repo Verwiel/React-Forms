@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './Home';
+import RouterPage from './RouterPage';
 
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<RouterPage />, document.getElementById('root'));

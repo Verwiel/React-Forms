@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App]
+
+The point of this project is to learn how to create forms in React.
+
+Leveraged JavaScript Event management and React State & Props to print form values to the Console
+
+Created site navigation using React Routes
+
+
+(https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
