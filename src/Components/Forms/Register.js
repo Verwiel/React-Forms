@@ -1,5 +1,4 @@
 import React from 'react';
-import RouterPage from './RouterPage'
 
 class Register extends React.Component {
   render() {
@@ -21,7 +20,7 @@ class Register extends React.Component {
           </label>
           <button type="submit">Create Account</button>
           <p> Already Have an Account?
-          <a href="./Login"> Login Here!</a>
+          <a href="./"> Login Here!</a>
           </p>
         </form>
       </div>

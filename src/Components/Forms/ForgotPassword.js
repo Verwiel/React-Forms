@@ -1,5 +1,4 @@
 import React from 'react';
-import RouterPage from './RouterPage'
 
 class ForgotPassword extends React.Component {
   render() {
@@ -11,7 +10,7 @@ class ForgotPassword extends React.Component {
           <input type="email" placeholder="Enter Email Address" required/>
           <button type="submit">Submit</button>
           <p>Remember?
-          <a href="./Login"> Login!</a>
+          <a href="./"> Login!</a>
           </p>
           <p> Need an Account?
           <a href="./Register"> Create One Here!</a>

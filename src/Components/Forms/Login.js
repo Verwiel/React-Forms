@@ -6,9 +6,9 @@ class Login extends React.Component {
       <div class="vertical-center text-center">
         <form>  
           <h1>Login</h1>
-          <a href="./Register">Create an Account</a>
+          <a href="/Register">Create an Account</a>
           <input type="text" placeholder="Username" required/>
-          <a href="./ForgotPassword">Forgot Password?</a>
+          <a href="/ForgotPassword">Forgot Password?</a>
           <input type="password" placeholder="Password" required/>
           <button type="submit">Login</button>
         </form>

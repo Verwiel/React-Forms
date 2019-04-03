@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import RouterPage from './RouterPage';
+import App from './Components/App/App';
 
 
-ReactDOM.render(<RouterPage />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
